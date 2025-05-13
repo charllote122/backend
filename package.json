@@ -1,7 +1,7 @@
 {
   "name": "project1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node.js and Express.js backend for handling API requests",
   "main": "index.js",
   "author": "Sofia <sofia@example.com>",
   "homepage": "https://github.com/charllote122/backend",
@@ -9,11 +9,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "express",
+    "backend"
+  ],
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0",
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "dotenv": "^10.0.0",
+    "morgan": "^1.10.0" 
   }
 }
