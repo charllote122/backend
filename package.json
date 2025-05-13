@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": "Sofia <sofia@example.com>",
   "homepage": "https://github.com/charllote122/backend",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Sofia",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
